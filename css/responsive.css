@@ -6,7 +6,6 @@
     .header__sign ul {
         margin-right: 40px;
     }
-
 }
 
 @media(max-width:1600.8px) {
@@ -362,11 +361,114 @@
         line-height: 22px;
     }
 
+    .ty-content .container-ca {
+        margin-top: -50px;
+    }
 
+    .ty-descrsect .descr {
+        margin-bottom: 28px;
+    }
 
+    .ty-descrsect .adsbtn {
+        width: 260px;
+    }
 
+    .traffstat__topscreen .traffstat__title {
+        font-size: 90px;
+        margin: 0;
+        line-height: normal;
+    }
 
+    .traffstat__topscreen {
+        padding-top: 70px;
+    }
 
+    .traffstat__table-head p {
+        font-size: 13px;
+    }
+
+    .traffic-buybox p {
+        font-size: 38px;
+        line-height: normal;
+    }
+
+    .traffic-buybox .adsbtn {
+        padding: 14px 26px;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .traffstat__countryrow .country-rowname p,
+    .traffstat__countryrow .country-rownvisit p,
+    .traffstat__countryrow .country-rownum {
+        font-size: 16px;
+    }
+
+    .traffstat__countryrow .country-rownvisit,
+    .traffstat__countryrow .country-rowname,
+    .traffstat__countryrow .country-rownum {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .traffstat__table-body .traffstat__countryrow:first-child .country-rownum,
+    .traffstat__table-body .traffstat__countryrow:first-child .country-rowname,
+    .traffstat__table-body .traffstat__countryrow:first-child .country-rownvisit {
+        padding-top: 15px;
+    }
+
+    .traffstat__table-body .traffstat__countryrow:last-child .country-rownum,
+    .traffstat__table-body .traffstat__countryrow:last-child .country-rowname,
+    .traffstat__table-body .traffstat__countryrow:last-child .country-rownvisit {
+        padding-bottom: 15px;
+    }
+
+    .blogopen-wrapper {
+        padding: 40px 0 40px 0;
+    }
+
+    .blogcontent h1 {
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+
+    .blogcontent h5 {
+        margin-bottom: 10px;
+    }
+
+    .blogcontent h1:after {
+        bottom: -25px;
+    }
+
+    .blogdate .date {
+        margin-bottom: 35px;
+    }
+
+    .blogdate {
+        top: 70px;
+    }
+
+    .error__centerpic p {
+        font-size: 18px;
+    }
+
+    .error__centerpic a {
+        padding: 12px 20px;
+        width: 260px;
+    }
+
+    .maintestpic-wrapp .mainanim {
+        zoom: .7;
+    }
+
+    .mainwrapper.signpage .errcentpic.errpic2 {
+        width: 60%;
+    }
+
+    .mainwrapper.signpage .errcentpic.errpic3 {
+        width: 85%;
+    }
 
     .order-bottsect .checkfield {
         margin-bottom: 30px;
@@ -382,7 +484,6 @@
         margin-bottom: 15px;
     }
 
-
     .signform__bottsect>a,
     .datailssect {
         margin-bottom: 10px;
@@ -395,7 +496,8 @@
         line-height: normal;
     }
 
-    .header__sign>ul.loglist>li {
+    .header__sign>ul.loglist>li,
+    .ty__ordernum span {
         font-size: 14px;
     }
 
@@ -409,6 +511,10 @@
     .total-price,
     .order-bottsect .title {
         font-size: 20px;
+    }
+
+    .ty-descrsect .title {
+        font-size: 26px;
     }
 
 }
@@ -483,6 +589,30 @@
         height: 90px;
     }
 
+    .traffic-buybox p {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .traffic-buybox .adsbtn {
+        padding: 10px 25px;
+    }
+
+    .traffic-buybox {
+        padding: 15px 30px;
+    }
+
+    .blogopen-wrapper .col-xl-8 {
+        margin: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding: 0 5%;
+    }
+
+    .blogdate {
+        flex: 0 0 150px;
+        max-width: 150px;
+    }
 }
 
 @media(max-width:1350.8px) {
@@ -514,8 +644,9 @@
         display: flex;
     }
 
-
-
+    .traffic-buybox {
+        padding: 15px 20px;
+    }
 }
 
 @media(max-width:1300.8px) {
@@ -545,7 +676,26 @@
         margin-right: 30px;
     }
 
+    .traffic-buybox p {
+        font-size: 28px;
+    }
 
+    .traffic-buybox .adsbtn {
+        padding: 10px 25px 10px 10px;
+        font-size: 13px;
+    }
+
+    .traffstat__topscreen .traffstat__title {
+        padding-right: 20px;
+    }
+
+    .traffstat__topscreen .traffstat__title span {
+        padding-left: 20px;
+    }
+
+    .traffstat__topscreen .traffstat__title {
+        font-size: 70px;
+    }
 
 }
 
@@ -625,7 +775,6 @@
         justify-content: space-between;
     }
 
-
     .blog-content .row .col-xl-12 .row .col-xl-3 {
         margin-bottom: 20px;
     }
@@ -638,9 +787,33 @@
         margin-top: 20px;
     }
 
+    .traffic-buybox {
+        display: none;
+    }
 
+    .error-textpic {
+        max-width: 350px;
+    }
 
+    .error__centerpic svg {
+        margin-bottom: 45px;
+    }
 
+    .error__centerpic p {
+        margin-bottom: 25px;
+    }
+
+    .errcentpic {
+        margin-top: -82px;
+    }
+
+    .maintestpic-wrapp {
+        right: -40%;
+    }
+
+    .mainwrapper.signpage .errcentpic {
+        margin-top: 0;
+    }
 }
 
 @media(max-width:1024.8px) {
@@ -670,7 +843,6 @@
     header .container-ca {
         position: relative;
     }
-
 
     .header .col-xl-4 {
         -ms-flex: 0 0 100%;
@@ -709,8 +881,6 @@
         left: 0;
         width: 100%;
         height: 100vh;
-        /*background: rgba(13, 71, 124, .64);
-        */
         z-index: 99;
         transform: translateX(-120%);
         transition: .5s;
@@ -885,8 +1055,6 @@
         background-color: #3BB9FF;
     }
 
-
-
     .feat-traffic .descrbox p,
     .feat-traffic h3 .num,
     .signform__bottsect p {
@@ -1058,28 +1226,31 @@
         -o-transform: translateY(-50%) rotate(180deg);
     }
 
+    .blog-content {
+        padding-bottom: 30px;
+    }
+
+    .ty-picsect .pic2 {
+        max-width: 400px;
+    }
 
 
+    .traffstat__topscreen .traffstat__title {
+        padding-right: 0;
+        font-size: 60px;
+    }
 
+    .traffstat__topscreen .traffstat__title span {
+        padding-left: 0;
+    }
 
+    .maintestpic-wrapp .mainanim {
+        display: none;
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .maintestpic-wrapp {
+        right: 0;
+    }
 
     .faq-qustionbox .cont .descr p,
     .faq-qustionbox .cont .descr p a,
@@ -1090,12 +1261,15 @@
         font-size: 14px;
     }
 
-
-
-    /* test */
     .signpage {
         background-size: 90% auto;
     }
+
+    .scrolltable {
+        z-index: 1;
+        position: relative;
+    }
+
 
 }
 
@@ -1178,11 +1352,32 @@
         line-height: normal;
     }
 
+    .blog-content .row .col-xl-4:first-child,
+    .blog-content .row .col-xl-4:nth-child(2),
+    .blog-content .row .col-xl-4:nth-child(3) .postlink {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 
+    .postbig {
+        margin-bottom: 25px;
+    }
 
+    .postbott__descr {
+        padding-bottom: 10px;
+    }
 
+    .ty-picsect .pic2 {
+        max-width: 300px;
+    }
 
+    .ty-descrsect .title {
+        margin-bottom: 15px;
+    }
 
+    .ty-descrsect .descr {
+        margin-bottom: 22px;
+    }
 
     .timing-duration .tdtext {
         margin-bottom: 15px;
@@ -1214,6 +1409,77 @@
         font-size: 20px;
     }
 
+    .ty-descrsect .title {
+        font-size: 24px;
+    }
+
+    .traffstat__topscreen .traffstat__title {
+        margin: 0 auto;
+        max-width: 600px;
+    }
+
+    .traffstat__content {
+        padding: 40px 0 40px 0;
+    }
+
+    .blogcontent {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .blogdate {
+        position: relative;
+        top: 0;
+    }
+
+    .blogopen-wrapper {
+        padding-top: 20px;
+    }
+
+    .blogcontent h1 {
+        font-size: 28px;
+    }
+
+    .blogdate {
+        position: relative;
+        top: 0;
+        max-width: 100%;
+        flex: 0 0 100%;
+        display: flex;
+    }
+
+    .blogdate .leftbox {
+        width: 100%;
+        max-width: 50%;
+        flex: 0 0 50%;
+    }
+
+    .blogdate .rightbox {
+        width: 100%;
+        max-width: 50%;
+        flex: 0 0 50%;
+        text-align: right;
+    }
+
+    .blogdate .date {
+        margin-bottom: 15px;
+    }
+
+    .blogdate .title {
+        margin-bottom: 0;
+    }
+
+    .blogdate .listtitle {
+        margin-bottom: 10px;
+    }
+
+    .termsbox__title {
+        margin-bottom: 30px;
+    }
+
+    .termsbox__title:after {
+        bottom: -15px;
+    }
 
 }
 
@@ -1343,8 +1609,41 @@
         max-width: calc(100% - 95px);
     }
 
+    .blog-content .col-xl-12 {
+        margin-top: 30px;
+    }
 
+    .ty__ordernum {
+        margin-bottom: 60px;
+    }
 
+    .traffstat__topscreen .traffstat__title {
+        text-align: left;
+        font-size: 50px;
+    }
+
+    .blogopen-wrapper .col-xl-8 {
+        padding: 0 15px;
+    }
+
+    .blogcontent h1 {
+        line-height: normal;
+    }
+
+    .mainwrapper.signpage svg {
+        display: none;
+    }
+
+    .signpage,
+    .signuppage {
+        background-image: url('../img/animation-pic/login-test.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .mainwrapper.signuppage svg {
+        display: none;
+    }
 
     .buytraff h2 {
         font-size: 32px;
@@ -1463,7 +1762,7 @@
     }
 
     .section-title {
-        padding-left: 36px;
+        padding-left: 26px;
         font-size: 20px;
         line-height: 36px;
         max-width: 228px;
@@ -1754,15 +2053,227 @@
         padding: 24px 14px 48px;
     }
 
+    .blog-content .row {
+        margin-left: -15px;
+        margin-right: -15px;
+    }
 
+    .blog-content .row .col-xl-4,
+    .blog-content .row .col-xl-12 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 
+    .postmiddle__descr .title {
+        line-height: normal;
+    }
 
+    .counrtysel2 .select2-container--default .select2-selection--multiple {
+        padding-left: 15px;
+        padding-right: 20px;
+    }
 
-
-
-
-    .order-bottsect .checkfield label {
+    .counrtysel2 .select2-container .select2-search--inline .select2-search__field {
         font-size: 14px;
+    }
+
+    .select2-container--default .select2-selection--multiple .select2-selection__choice__display {
+        font-size: 14px;
+    }
+
+    .ty-content {
+        padding: 50px 0;
+    }
+
+    .ty-content .container-ca {
+        margin-top: 0;
+    }
+
+    .ty-descrsect .adsbtn {
+        max-width: 100%;
+    }
+
+    .traffstat__topscreen .traffstat__title {
+        font-size: 38px;
+    }
+
+    .traffstat__countryrow .country-rowname p,
+    .traffstat__countryrow .country-rownvisit p,
+    .traffstat__countryrow .country-rownum {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .traffstat__countryrow .country-rowname p img {
+        margin-right: 8px;
+        width: 22px;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .traffstat__countryrow .country-rowname,
+    .traffstat__table-cn {
+        padding-left: 10px;
+    }
+
+    .traffstat__table-head,
+    .country-rownvisit p {
+        padding-right: 10px;
+    }
+
+    .traffstat__countryrow {
+        align-items: initial;
+    }
+
+    .traffstat__countryrow .country-rownum {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blogcontent h1 {
+        margin-bottom: 30px;
+    }
+
+    .blogcontent h1:after {
+        bottom: -18px;
+    }
+
+    .termsbox__title {
+        font-size: 16px;
+    }
+
+    .termsbox__title {
+        margin-bottom: 20px;
+    }
+
+    .termsbox__title:after {
+        bottom: -10px;
+    }
+
+    .termsbox {
+        margin-bottom: 25px;
+        padding-left: 25px;
+    }
+
+    .termsbox__title span {
+        left: -25px;
+    }
+
+    .termsbox__descr p {
+        font-size: 14px;
+    }
+
+    .error-textpic {
+        max-width: 260px;
+    }
+
+    .status-dropdown .sortsection .dropdown-menu li a {
+        font-size: 14px;
+        line-height: normal;
+    }
+
+    .sortsection .dropdown-menu li a:not(.viewstatistic) {
+        padding: 6px 10px;
+    }
+
+    .filterbox__statussort .status-dropdown .sortsection .dropdown-menu li a {
+        padding-top: 4px;
+        padding-bottom: 4px;
+    }
+
+    .errcentpic {
+        animation: none;
+        -webkit-animation: none;
+    }
+
+    .errcentpic path,
+    .errcentpic circle {
+        animation: none;
+        -webkit-animation: none;
+    }
+
+    .blogcontent h1 {
+        font-size: 24px;
+    }
+
+    .ty-descrsect .title {
+        font-size: 18px;
+    }
+
+    .postbig__descr .title,
+    .blogcontent h5 {
+        font-size: 16px;
+    }
+
+    .order-bottsect .checkfield label,
+    .postbig__descr .descr,
+    .ty-descrsect .descr,
+    .blogcontent p,
+    .sortdays button,
+    .status-dropdown .category-dropdown .mainfield,
+    .tablerow__ordnum p,
+    .tablerow__date p,
+    .tablerow__trafftype p,
+    .tablerow__price span {
+        font-size: 14px;
+    }
+
+    .postbig__descr .date,
+    .postmiddle__descr .date,
+    .postsmall__descr .date,
+    .postsmall__descr .date,
+    .postbott__descr .date,
+    .filterbox__title {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:420.8px) {
+    .postbig .picwrapp {
+        height: 150px;
+    }
+
+    .postmiddle {
+        flex-wrap: wrap;
+    }
+
+    .postmiddle .picwrapp {
+        max-width: 100%;
+        flex: 0 0 100%;
+    }
+
+    .postbig__descr .date,
+    .postmiddle__descr .date {
+        margin: 0;
+    }
+
+    .postbig__descr,
+    .postmiddle__descr,
+    .postbott__descr {
+        padding: 20px 10px 10px 10px;
+        border-bottom: 1px solid #D5D5D5;
+    }
+
+    .postmiddle__descr-wrapp {
+        padding: 0;
+        border: none;
+    }
+
+    .blog-content .postlink {
+        margin-bottom: 25px;
+    }
+
+    .postsmall .picwrapp {
+        height: 100px;
+    }
+
+    .blog-content .postlink {
+        margin-bottom: 20px;
     }
 
 }
@@ -1775,4 +2286,32 @@
     .signform__bottsect p {
         line-height: 20px;
     }
+
+    .traffstat__topscreen .traffstat__title {
+        font-size: 32px;
+    }
+
+    .traffstat__topscreen {
+        margin-top: -50px;
+    }
+
+    .traffstat__table-head p {
+        font-size: 12px;
+    }
+
+    .country-rownvisit p img {
+        width: 16px;
+        transform: none;
+        -webkit-transform: none;
+        -moz-transform: none;
+        -ms-transform: none;
+        -o-transform: none;
+    }
+
+    .traffstat__countryrow .country-rowname p,
+    .traffstat__countryrow .country-rownvisit p,
+    .traffstat__countryrow .country-rownum {
+        font-size: 13px;
+    }
+
 }

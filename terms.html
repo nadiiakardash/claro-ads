@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign error</title>
+    <title>Terms of Service</title>
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
@@ -20,7 +20,7 @@
 
 <body>
 
-    <header class="header">
+    <header class="header logined">
         <div class="container-ca">
             <div class="row">
                 <div class="col-xl-4 col-lg-3 d-flex align-items-center">
@@ -96,7 +96,7 @@
             </button>
         </div>
     </header>
-    <div class="mobile-nav">
+    <div class="mobile-nav mobile-nav__logined">
         <div class="mob-nav__wrapp">
             <button class="closemenu">
                 <img src="img/close.svg" alt="close">
@@ -158,73 +158,147 @@
     </div>
 
     <main>
-        <div class="mainwrapper signpage">
-            <!-- animation svg -->
-            <svg class="errpic2 errcentpic" width="1235" height="1182" viewBox="0 0 1235 1182" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.1"
-                    d="M1216.12 590.624C1216.12 916.263 951.852 1180.25 625.857 1180.25C299.862 1180.25 35.5928 916.263 35.5928 590.624C35.5928 264.984 299.862 1 625.857 1C951.852 1 1216.12 264.984 1216.12 590.624Z"
-                    stroke="white" stroke-width="2" />
-                <circle class="circ3" opacity="0.2" cx="35.873" cy="631.622" r="35.873" fill="#4EEAFF" />
-                <circle class="circ2" opacity="0.4" cx="35.8733" cy="631.621" r="22.4206" fill="#4EEAFF" />
-                <circle class="circ1" cx="35.8732" cy="631.621" r="6.72619" fill="#4EEAFF" />
-                <circle class="circ3" opacity="0.15" cx="1195.79" cy="766.918" r="38.4354" fill="white" />
-                <circle class="circ2" opacity="0.4" cx="1195.79" cy="766.918" r="17.9365" fill="white" />
-                <circle class="circ1" cx="1195.79" cy="766.918" r="5.01331" fill="white" />
-            </svg>
-            <svg class="errcentpic errpic3" width="1713" height="1697" viewBox="0 0 1713 1697" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path opacity="0.1"
-                    d="M1712 848.141C1712 1316 1333.01 1695.28 865.5 1695.28C397.992 1695.28 19 1316 19 848.141C19 380.277 397.992 1 865.5 1C1333.01 1 1712 380.277 1712 848.141Z"
-                    stroke="white" stroke-width="2" />
-                <circle class="circ3" opacity="0.1" cx="126.9" cy="1261.96" r="47.4036" fill="white" />
-                <circle class="circ2" opacity="0.15" cx="126.9" cy="1261.96" r="29.6273" fill="white" />
-                <circle class="circ1" cx="126.9" cy="1261.96" r="6.18308" fill="white" />
-                <circle class="circ3" opacity="0.2" cx="56.9728" cy="624.973" r="56.9728" fill="#4EEAFF" />
-                <circle class="circ2" opacity="0.5" cx="56.9727" cy="624.973" r="35.608" fill="#4EEAFF" />
-                <circle class="circ1" cx="56.9727" cy="624.973" r="7.43123" fill="#4FEAFF" />
-            </svg>
-            <!-- animation svg END-->
+        <div class="mainwrapper acc">
             <div class="container-ca">
-                <div class="logsection">
-                    <div class="formlog">
-                        <form action="" class="signform error">
-                            <div class="login-sect">
-                                <p class="title">Login to continue</p>
-                                <div class="inpfield inpfield__textinp">
-                                    <input type="email" placeholder="Your Email Address">
-                                    <label for="">Email</label>
+                <div class="breadcrumbsect">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li>Terms of Service</li>
+                    </ul>
+                </div>
+                <section class="terms-wrapper">
+                    <p class="section-title">Terms of Service</p>
+                    <div class="row">
+                        <div class="col-xl-8 offset-xl-2">
+                            <div class="terms-section">
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>01</span>Traffic Guarantee</p>
+                                    <div class="termsbox__descr">
+                                        <p>
+                                            In connection with these Terms, Company guarantees to use Advertiser’s
+                                            website(s) originating from Company’s website(s) or network of publishers
+                                            websites. Company shall do their best to ensure that traffic sent to
+                                            customer data that is provided via Advertiser’s feed(s) is legitimate and
+                                            use their best efforts to ensure that all traffic is free from fraudulent
+                                            activity. Company does not guarantee any performance results of the traffic
+                                            (sales, clicks, etc.).
+                                        </p>
+                                    </div>
                                 </div>
-                                <div class="inpfield inpfield__textinp">
-                                    <input type="password" placeholder="Your Password">
-                                    <label for="">Password</label>
-                                    <span class="eye">
-                                        <img src="img/icons/eye.svg" alt="show password">
-                                    </span>
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>02</span>Payment</p>
+                                    <div class="termsbox__descr">
+                                        <p>
+                                            Advertiser confirms that he will use advertising for commercial purposes.
+                                        </p>
+                                        <p>
+                                            Advertiser is responsible for any taxes, which must be payed and declared by advertiser local country tax rules.
+                                        </p>
+                                        <p>
+                                            Company does not charge any fees for Advertiser deposits.
+                                        </p>
+                                    </div>
                                 </div>
-                                <p class="signform__errortext">Something is wrong. Please check password and email
-                                    address</p>
-                                <button type="submit" class="adsbtn adsbtn__blue">
-                                    Login
-                                    <span></span>
-                                </button>
-                                <div class="signform__bottsect">
-                                    <a href="#">Forgot Password?</a>
-                                    <p>Don't have an account yet? <a href="#">Registration Now</a></p>
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>03</span>Obligations and Warranties</p>
+                                    <div class="termsbox__descr">
+                                        <p>
+                                            Company and Advertiser are entering these relationships as independent contractors, and these Terms shall not be construed to create a partnership, joint venture or employment relationships between them. Neither shall represent themselves to be an employee or agent of the other or enter into any agreement on the other’s behalf of or in the other’s name.
+                                        </p>
+                                        <p>
+                                            Company and Advertiser shall monitor and periodically test the general availability and operation of their website(s) or network of websites to ensure that either party has reasonable access to each website, service and statistics.
+                                        </p>
+                                        <p>
+                                            Should any click rate discrepancy of more than five percent (5%) occur in Advertiser’s and Company’s traffic statistics data, Advertiser and Company agree to work together diligently and in good faith to resolve such discrepancies.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>04</span>Сonfidentiality</p>
+                                    <div class="termsbox__descr">
+                                        <p>
+                                            Company and Advertiser shall agree not to disclose confidential information without written mutual consent. Confidential information includes without limitation all software, technology, programming, specifications, materials, guidelines, data, statistics and documentation related to the relationships between Company and Advertiser.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>05</span>Termination of Relationships</p>
+                                    <div class="termsbox__descr">
+                                        <p>
+                                            Company may terminate relationships with Advertiser with or without cause at any time by sending written notice of their intention to cancel traffic provision to Advertiser via email. These Terms will be deemed terminated within ten (10) business days of Advertiser’s receipt of Company’s written notice.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="termsbox">
+                                    <p class="termsbox__title"><span>06</span>Disputes Resolution</p>
+                                    <div class="termsbox__descr">
+                                        <p>These Terms shall be governed by the Laws of Lithuania, except for its Conflict of Laws principles.
+                                        </p>
+                                        <p>Company and Advertiser shall seek amicable resolution to any disputes arising from these Terms.
+                                        </p>
+                                        <p>Should amicable resolution not be reached, any disputes shall be transferred to the competent Court of Law in Lithuania for further resolution.
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <section class="buytraff">
+                <div class="container-ca">
+                    <div class="row">
+                        <div class="col-xl-9 col-lg-8 d-flex align-items-center">
+                            <h2>
+                                <span>buy</span>
+                                Website Traffic
+                            </h2>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 d-flex align-items-center justify-content-lg-end">
+                            <a href="#" class="adsbtn">Order Website Traffic Now<span></span></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="fblueline"></div>
+        <div class="container-ca">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="footer__text">
+                        <p>
+                            Before buying website traffic, please familiarize yourself with our Frequently Asked
+                            <a href="#">Questions</a> and read our <a href="#">Terms of Service</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Order</a></li>
+                            <li><a href="#">Traffic Statistics</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <a href="#" class="footer__fb">FACEBOOK</a>
                     </div>
                 </div>
             </div>
+            <p class="reservedtext">© CLARO ADS. 2020. All rights reserved.</p>
         </div>
-    </main>
+    </footer>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/rangeslider.js"></script>
+    <script src="js/jquery.inputmask.js"></script>
     <script src="js/common.js"></script>
 </body>
 
