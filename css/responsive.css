@@ -2315,3 +2315,367 @@
     }
 
 }
+
+
+
+/* NEW */
+@media(max-width:1600.8px) {
+    .abus {
+        padding: 40px 0 0 0;
+    }
+
+    .abus h1 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    .abus .adsbtn {
+        padding: 14px 40px;
+    }
+
+    .abus__body .leftinfo .descr p {
+        line-height: 25px;
+    }
+
+    .abus__head {
+        margin-bottom: 50px;
+    }
+
+    .abus__body-list ul li {
+        padding-right: 0;
+    }
+
+    .abus__body .leftinfo .descr {
+        margin-bottom: 50px;
+    }
+
+    .abus__body {
+        padding-bottom: 50px;
+    }
+
+    .traffstat__topscreen.trnew h1 {
+        font-size: 42px;
+        line-height: 60px;
+        margin-bottom: 30px;
+    }
+
+    .searchtraffbox {
+        max-width: 650px;
+    }
+
+    .searchtraffinfo__title {
+        font-size: 14px;
+    }
+
+    .searchtraffinfo {
+        margin-top: 30px;
+    }
+
+    .traffstat__topscreen.trnew {
+        height: 420px;
+    }
+
+    .traffstat__content {
+        padding: 40px 0 60px 0;
+    }
+
+    .traffstat__content.trnew .section-title {
+        margin-bottom: 20px;
+    }
+
+    #sortable thead th:not(:first-child):before {
+        right: 10px;
+    }
+
+    #sortable thead {
+        height: 54px;
+    }
+
+    #sortable tbody p img {
+        margin-right: 10px;
+    }
+
+    #sortable .country-column {
+        width: 40%;
+    }
+
+    #sortable thead th:not(.num-column) {
+        padding-right: 35px;
+    }
+
+
+
+
+
+
+
+    .traffstat-pagination__prev,
+    .traffstat-pagination__next,
+    .traffstat-pagination p {
+        font-size: 16px;
+    }
+
+    #sortable thead {
+        font-size: 14px;
+    }
+
+
+}
+
+@media(max-width:1300.8px) {
+    .abus__body-list ul li {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin-bottom: 15px;
+    }
+
+    main {
+        min-height: calc(100vh - 177px);
+    }
+}
+
+@media(max-width:991.8px) {
+    main {
+        min-height: calc(100vh - 198px);
+    }
+
+    .abus h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    .traffstat__topscreen.trnew h1 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+
+    #sortable thead th:not(.num-column) {
+        padding: 0 35px 0 10px;
+    }
+
+    #sortable thead th:not(:first-child):before {
+        width: 20px;
+        height: 20px;
+        right: 6px;
+    }
+
+    #sortable thead {
+        font-size: 12px;
+        line-height: normal;
+    }
+
+    .traffstat__topscreen.trnew {
+        padding-top: 90px;
+        height: 360px;
+    }
+
+    .traffstat-pagination {
+        margin-top: 35px;
+    }
+
+
+
+
+
+
+}
+
+@media(max-width:767.8px) {
+    .abus h1 {
+        margin-bottom: 20px;
+    }
+
+    .traffstat__topscreen.trnew h1 {
+        font-size: 32px;
+        line-height: 42px;
+        margin-bottom: 20px;
+    }
+
+    .country-choosebtn {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .searchtraffbox.counrtysel2 .select2-container {
+        width: calc(100% - 100px) !important;
+    }
+
+    .searchtraffinfo,
+    .traffstat-pagination__prev,
+    .traffstat-pagination__next,
+    .traffstat-pagination p {
+        font-size: 14px;
+    }
+
+    .traffstat__content.trnew .container-ca {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    tbody td {
+        font-size: 14px;
+        height: 44px;
+    }
+
+    #sortable .num-column {
+        width: 40px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:575.8px) {
+    .abus h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .abus {
+        padding: 30px 0 0 0;
+    }
+
+    .abus__head,
+    .abus__body .leftinfo .descr {
+        margin-bottom: 30px;
+    }
+
+    .abus__body {
+        padding-bottom: 30px;
+    }
+
+    .abus__body .rightimg {
+        padding-left: 0;
+    }
+
+    tbody tr td:not(:first-child) {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #sortable thead th:not(.num-column) {
+        padding: 0 20px 0 5px;
+    }
+
+    #sortable thead {
+        font-size: 10px;
+    }
+
+    #sortable thead th:not(:first-child):before {
+        width: 18px;
+        height: 18px;
+        right: 0;
+    }
+
+    .traffstat__content.trnew .container-ca,
+    .traffstat__content.trnew .container-ca .row .col-xl-8 {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .traffstat__content.trnew .container-ca .row {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+
+    .searchtraffinfo__title {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+
+    .traffstat__topscreen.trnew {
+        margin-top: -48px;
+        height: 330px;
+    }
+
+    .traffstat__topscreen.trnew h1 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 15px;
+    }
+
+    .searchtraffinfo__example {
+        margin-bottom: 0;
+    }
+
+    tbody td {
+        font-size: 12px;
+        height: 44px;
+    }
+
+    #sortable .num-column {
+        width: 30px;
+    }
+
+    .searchtraffbox.counrtysel2 .select2-container .select2-search--inline .select2-search__field {
+        font-size: 14px;
+    }
+
+    .ts-countrydropdown .select2-results>.select2-results__options {
+        font-size: 14px;
+    }
+
+    .ts-countrydropdown .select2-results>.select2-results__options {
+        max-height: 200px;
+    }
+
+    .searchtraffbox.counrtysel2 .select2-selection {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .traffstat-pagination__prev:before,
+    .traffstat-pagination__next:after {
+        width: 20px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media(max-width:360.8px) {
+
+    .counrtysel2 .select2-container--default .select2-selection--multiple {
+        height: 44px;
+    }
+
+    .country-choosebtn {
+        width: 76px;
+    }
+
+    .searchtraffbox.counrtysel2 .select2-container {
+        width: calc(100% - 76px) !important;
+    }
+
+    .searchtraffinfo {
+        margin-top: 20px;
+    }
+
+    .traffstat__content {
+        padding: 30px 0 40px 0;
+    }
+
+    #sortable tbody p img {
+        width: 20px;
+    }
+
+
+
+
+
+
+}
